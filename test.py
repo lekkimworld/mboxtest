@@ -19,6 +19,6 @@ for msg in mbox:
 	if len(msgbody) == 0: continue
 
 	# output body length
-	print len(msgbody)
+	print msgsubject + ', body is <' + str(len(msgbody)) + '> chars...'
 
     
